@@ -1,0 +1,56 @@
+body {
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+#mid-wall {
+  display: block;
+}
+.article {
+  margin-top: 5vw;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sunf {
+  transition: width 1s, height 1s;
+  border-radius: 50%;
+  transition: 1000ms ease all;
+  box-shadow: 0px 0px 50px 60px orangered;
+}
+
+#sunf:hover {
+  rotate: 360deg;
+  width: 600px;
+  height: 600px;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-family: "Franklin Gothicx   Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 8vw;
+}
+
+#earth {
+  transition: width 1s, height 1s;
+  border-radius: 50%;
+  transition: 1000ms ease all;
+  box-shadow: 0px 0px 50px 60px teal;
+}
+
+#earth:hover {
+  rotate: 360deg;
+  width: 600px;
+  height: 600px;
+}
+
+#backg {
+  position: absolute;
+}
